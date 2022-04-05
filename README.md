@@ -27,6 +27,7 @@ and run
 ```shell
 run_exps.sh
 ```
+The evaluation results are stored within the `./evaluation` folder.
 
 ## Reproducing the results step by step
 All Expereiments are located in `./tools`. To run all experiments navigate to the `tools` folder.
