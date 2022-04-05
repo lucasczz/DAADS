@@ -19,38 +19,34 @@ cd DetectingAnomaliesWithAutoencodersOnDataStreams
 pip install -r requirements.txt
 ```
 ## Reproducing the results
-To run all experiments at once, navigate to `./scripts` by 
-```shell 
-cd scripts
-```
-and run 
+To run all experiments at once, run the `run_exps.sh` script located in `./scripts` by
 ```shell
-run_exps.sh
+./scripts/run_exps.sh
 ```
 The evaluation results are stored within the `./evaluation` folder.
 
 ## Reproducing the results step by step
-All Expereiments are located in `./tools`. To run all experiments navigate to the `tools` folder.
+All Expereiments are located in `./tools`.
 The evaluation results are stored within the `./evaluation` folder.
 ### Run Benchmarks
 ```shell
-python benchmark_exp.py
+python ./tools/benchmark_exp.py
 ```
 ### Run Benchmark experiments
 ```shell
-python benchmark_exp.py
+python ./tools/benchmark_exp.py
 ```
 ### Run Contamination experiment
 ```shell
-python contamination_exp.py
+python ./tools/contamination_exp.py
 ```
 ### Run Capacity experiment
 ```shell
-python capacity_exp.py
+python ./tools/capacity_exp.py
 ```
 ### Run learning rate experiment
 ```shell
-python lr_exp.py
+python ./tools/lr_exp.py
 ```
 
 
