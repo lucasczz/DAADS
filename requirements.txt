@@ -1,0 +1,18 @@
+cython
+httptools
+python-dotenv
+uvloop
+watchgod
+websockets
+hyperopt
+torch
+scikit-learn
+jupyter
+pandas
+torch
+rrcf
+mmh3
+matplotlib==3.4.3
+numpy
+-e ./river
+-e ./IncrementalTorch

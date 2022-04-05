@@ -1,0 +1,8 @@
+git+https://github.com/online-ml/river
+pandas
+rich
+scikit-learn
+tabulate
+torch
+vowpalwabbit
+watermark

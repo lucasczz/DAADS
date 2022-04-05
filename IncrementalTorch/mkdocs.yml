@@ -1,0 +1,77 @@
+# Project information
+site_name: Incremental Torch
+site_description: Incremental DL is a Python library for incremental deep learning.
+site_author: Cedric Kulbach
+site_url: https://github.com/kulbachcedric/IncrementalTorch
+
+# Repository
+repo_name: IncrementalTorch
+repo_url: https://github.com/kulbachcedric/IncrementalTorch
+edit_uri: "https://github.com/kulbachcedric/IncrementalTorch"
+
+# Copyright
+copyright: Copyright &copy; 2019 - 2020
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    primary: blue
+    accent: grey
+  font:
+    text: Roboto
+    code: Roboto Mono
+  #logo: material/cloud
+  #favicon: material/cloud
+  features:
+    - navigation.instant
+    - navigation.tracking
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/kulbachcedric/IncrementalTorch
+
+# Google Analytics
+google_analytics:
+  - UA-63302552-3
+  - auto
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: "1-3"
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings:
+      default_handler: python
+  - mkdocs-jupyter
+
+extra_javascript:
+
+extra_css:
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Code Reference:
+      - Classification: classification.md
+      - Regression: regression.md
+      - Anomaly: anomaly.md
+  - Examples:
+      - Classification: examples/example_classification.ipynb
+      - Regression: examples/example_regression.ipynb
+      - Anomaly Detection: examples/example_ae.ipynb
+  - About: about.md
