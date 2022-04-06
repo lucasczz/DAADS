@@ -45,7 +45,10 @@ python ./tools/capacity_exp.py
 ```shell
 python ./tools/lr_exp.py
 ```
-
+### Obtain anomaly scores
+```shell
+python ./tools/scores_exp.py
+```
 
 
 
