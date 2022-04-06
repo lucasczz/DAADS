@@ -28,19 +28,16 @@ The evaluation results are stored within the `./evaluation` folder.
 ## Reproducing the results step by step
 All Expereiments are located in `./tools`.
 The evaluation results are stored within the `./evaluation` folder.
-### Run Benchmarks
+
+### Evaluate all models
 ```shell
 python ./tools/benchmark_exp.py
 ```
-### Run Benchmark experiments
-```shell
-python ./tools/benchmark_exp.py
-```
-### Run Contamination experiment
+### Run contamination experiment
 ```shell
 python ./tools/contamination_exp.py
 ```
-### Run Capacity experiment
+### Run capacity experiment
 ```shell
 python ./tools/capacity_exp.py
 ```
