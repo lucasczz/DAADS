@@ -4,7 +4,7 @@ import pathlib
 
 from evaluate import aggregate_dataframe, test_then_train
 
-N_PROCESSES = 50
+N_PROCESSES = 3
 DATASETS = ["covertype", "creditcard", "shuttle"]
 MODELS = ["AE", "AE", "DAE", "RRCF", "HST", "PW-AE", "xStream", "Kit-Net", "ILOF"]
 SEEDS = range(42, 52)
