@@ -50,5 +50,10 @@ python ./tools/lr_exp.py
 python ./tools/scores_exp.py
 ```
 
+## Access datasets 
+```shell 
+from IncrementalTorch.datasets import Covertype, Shuttle
+from river.datasets import CreditCard
+```
 
 
