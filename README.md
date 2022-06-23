@@ -4,16 +4,16 @@ This repository contains the results for our ECML 2022 submission "Detecting Ano
 
 ## Installation
 ```shell
-git clone git@github.com:LCa95/LCa95-DetectingAnomaliesWithAutoencodersOnDataStreams.git
+git clone https://github.com/lucasczz/DAADS.git
 ```
 ```shell
-virtualenv -p python3 online_anomaly_detection
+python3 -m venv daads_env
 ```
 ```shell
-source bin activate online_anomaly_detecion
+source daads_env/bin/activate
 ```
 ```shell
-cd DetectingAnomaliesWithAutoencodersOnDataStreams
+cd DAADS
 ```
 ```shell
 pip install -r requirements.txt
@@ -23,11 +23,10 @@ To run all experiments at once, run the `run_exps.sh` script located in `./scrip
 ```shell
 ./scripts/run_exps.sh
 ```
-The evaluation results are stored within the `./evaluation` folder.
+The experiment results are stored in `./results`.
 
 ## Reproducing the results step by step
-All Expereiments are located in `./tools`.
-The evaluation results are stored within the `./evaluation` folder.
+All experiment scripts are located in `./tools`.
 
 ### Evaluate all models
 ```shell
