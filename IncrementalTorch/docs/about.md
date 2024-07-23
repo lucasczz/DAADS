@@ -1,1 +1,0 @@
-# About Incremental Torch
