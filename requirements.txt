@@ -14,5 +14,5 @@ rrcf
 mmh3
 matplotlib==3.4.3
 numpy
+river[deep]
 -e ./river
--e ./IncrementalTorch
